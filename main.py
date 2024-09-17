@@ -10,9 +10,9 @@ from operations_locales.filtres_ph.ops import ph_par_diff, moyenne_ph, gradient_
 
 from fourier.ops import fourier_transform, ideal_low_pass_filter_fourier, butterworth
 from interest_pts.ops import harris_detector_from_scratch, harris_detector, susan_detector
-from hough.ops import hough_lines_detector
+from hough.ops import hough_lines_detector  
 
-
+from morphology.ops import dilation_binary, dilation_grayscale, erosion_binary, erosion_grayscale
 
 
 image_path = r"\images\lena.bmp"
